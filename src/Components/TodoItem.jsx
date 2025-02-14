@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {  useTodo } from '../Context';
 
-function TodoItem({ todo }) { //{ todo } is a destructured parameter that extracts the todo object from the props passed to the TodoItem component.
+function TodoItem({ todo }) { 
 
  const [isTodoEditable,setIsTodoEditable]=useState(false);
   const [todoMsg,setTodoMsg]=useState(todo.todo);
